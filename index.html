@@ -13,7 +13,7 @@
     <style>
         body {
             background-image: url("background2.jpg");
-            font-family: Garamond, serif;
+            font-family: "Goudy Old Style";
             font-weight: bold;
         }
 
@@ -24,7 +24,7 @@
         }
 
         .responsive {
-            width: 65%;
+            width: 50%;
             height: auto;
         }
 
@@ -129,114 +129,172 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link tc-white fs-3" href="index.html">About</a>
+                            <a class="nav-link tc-white fs-3" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link tc-white fs-3" href="project.html">Project</a>
+                            <a class="nav-link tc-white fs-3" href="#project">Project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link tc-white fs-3" href="kontak.html">Kontak</a>
+                            <a class="nav-link tc-white fs-3" href="#kontak">Kontak</a>
                         </li>
                     </ul>
                 </div>
         </nav>
         <!-- navbar-->
         <!-- isi -->
-        <br>
-        <br>
-        <h1 class="text-center">Halo!
-        </h1>
-        <br>
-        <div class="row">
-            <div class="col-2 justify-content-center"></div>
-            <div class="col-8 justify-content-center">
-                <img id="borderimg" src="foto.png" class="justify-content-center responsive center">
-                <p class="fs-4 fst-bold text-center">Saya Ridhwan Azhar Ramadhan, Saya seorang web developer.</p>
-                <P></P>
-                <div class="accordion accordion-flush" id="borderimg">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingOne">
-                            <button class="accordion-button collapsed bg-warning fs-3 border border-dark" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                aria-controls="flush-collapseOne">
-                                <i class="bi bi-person-lines-fill"></i>Biodata
-                            </button>
-                        </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body bg-tan fs-5">
-                                Saya lahir di Depok, 31 Oktober 2004. Saya lulusan SMK Bina Informatika
-                                Jurusan Rekayasa Perangkat Lunak, saya telah membuat beberapa project selama bersekolah.
+        <section id="about">
+            <br>
+            <br>
+            <h1 class="text-center">Halo!
+            </h1>
+            <br>
+            <div class="row">
+                <div class="col-2 justify-content-center"></div>
+                <div class="col-8 justify-content-center">
+                    <img id="borderimg" src="foto.png" class="justify-content-center responsive center">
+                    <p class="fs-4 fst-bold text-center">Saya Ridhwan Azhar Ramadhan, Saya seorang web developer.</p>
+                    <P></P>
+                    <div class="accordion accordion-flush" id="borderimg">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed bg-warning fs-3 border border-dark"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                    aria-expanded="false" aria-controls="flush-collapseOne">
+                                    <i class="bi bi-person-lines-fill"></i>Biodata
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body bg-tan fs-5">
+                                    Saya lahir di Depok, 31 Oktober 2004. Saya lulusan SMK Bina Informatika
+                                    Jurusan Rekayasa Perangkat Lunak, saya telah membuat beberapa project selama
+                                    bersekolah.
 
-                                <a href="project.html">Lihat Project</a>
+                                    <a href="project.html">Lihat Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed bg-warning fs-3 border border-dark"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                    aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    <i class="bi bi-book"></i>Pendidikan
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body bg-tan fs-5">
+                                    <p class="bg-red text-center fs-4">SDN Sirnagalih 06 (2011-2016)</p>
+                                    <p class="bg-blue text-center fs-4">SMPN 2 Tamansari(2016-2019)</p>
+                                    <p class="bg-gray text-center fs-4">SMK Bina Informatika (2019-2022)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed bg-warning fs-3 border border-dark"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    <i class="bi bi-briefcase"></i>Skill
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body bg-tan fs-5">
+                                    <p class="bg-darkbrown text-center text-white fs-4">Bahasa HTML</p>
+                                    <p class="bg-darkbrown text-center text-white fs-4">Python</p>
+                                    <p class="bg-darkbrown text-center text-white fs-4">Framework Bootstrap, Laravel,
+                                        dan
+                                        Codeigniter3
+                                    </p>
+                                    <p class="bg-darkbrown text-center text-white fs-4">Adobe Photoshop</p>
+                                    <p class="bg-darkbrown text-center text-white fs-4">Microsoft Word</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingTwo">
-                            <button class="accordion-button collapsed bg-warning fs-3 border border-dark" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                aria-controls="flush-collapseTwo">
-                                <i class="bi bi-book"></i>Pendidikan
-                            </button>
-                        </h2>
-                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body bg-tan fs-5">
-                                <p class="bg-red text-center fs-4">SDN Sirnagalih 06 (2011-2016)</p>
-                                <p class="bg-blue text-center fs-4">SMPN 2 Tamansari(2016-2019)</p>
-                                <p class="bg-gray text-center fs-4">SMK Bina Informatika (2019-2022)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingThree">
-                            <button class="accordion-button collapsed bg-warning fs-3 border border-dark" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                aria-controls="flush-collapseThree">
-                                <i class="bi bi-briefcase"></i>Skill
-                            </button>
-                        </h2>
-                        <div id="flush-collapseThree" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body bg-tan fs-5">
-                                <p class="bg-darkbrown text-center text-white fs-4">Bahasa HTML</p>
-                                <p class="bg-darkbrown text-center text-white fs-4">Python</p>
-                                <p class="bg-darkbrown text-center text-white fs-4">Framework Bootstrap, Laravel, dan
-                                    Codeigniter3
-                                </p>
-                                <p class="bg-darkbrown text-center text-white fs-4">Adobe Photoshop</p>
-                                <p class="bg-darkbrown text-center text-white fs-4">Microsoft Word</p>
-                            </div>
-                        </div>
-                    </div>
+                </div>
+        </section>
+        <section id="project">
+            <br>
+            <br>
+            <h1 class="text-center">Project
+            </h1>
+            <br>
+            <div class="row">
+                <div class="col-2 justify-content-center"></div>
+                <div id="borderimg" class="col-8 justify-content-center">
+                    <p class="bg-darkbrown text-center text-white fs-4">Aplikasi Pendataan Pengunjung (2021)</p>
+                    <p class="fs-5">Aplikasi CRUD untuk Mendata Kesehatan Pengunjung. Aplikasi ini Dibuat menggunakan
+                        Python
+                        dan Database dari Excel, Dibuat untuk Sidang PKL.</p>
+                    <p class="bg-darkbrown text-center text-white fs-4">Web Peduli Diri (2022)</p>
+                    <p class="fs-5">Aplikasi CRUD untuk Mendata Suhu Tubuh Pengunjung.Aplikasi ini Berbasis web
+                        menggunakan
+                        Framework Laravel dan Database Mysql, Dibuat untuk Ujikom</p>
+                    <p class="bg-darkbrown text-center text-white fs-4">Web Hotel Hebat (2022)</p>
+                    <p class="fs-5">Aplikasi CRUD untuk Pemesanan Kamar Hotel.Aplikasi ini Berbasis web menggunakan
+                        Framework CodeIgniter3 dan Database Mysql, aplikasi ini memiliki fitur previlege yang memisahkan
+                        akses antara pengguna dan admin.</p>
                 </div>
             </div>
             <br>
-            <!-- isi -->
-            <!---footer-->
-            <footer id="borderimg" class="text-center text-white bg-darkbrown">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4"><a class="nav-link tc-white fs-5" href="index.html">About</a></div>
-                        <div class="col-4"><a class="nav-link tc-white fs-5" href="project.html">Project</a></div>
-                        <div class="col-4"><a class="nav-link tc-white fs-5" href="kontak.html">Kontak</a></div>
+        </section>
+        <section id="kontak">
+            <br>
+            <br>
+            <h1 class="text-center">Hubungi Saya <i class="bi bi-file-person-fill"></i>
+            </h1>
+            <br>
+            <br>
+            <div id="borderimg" class="accordion accordion-flush" id="accordionFlushExample">
+                <p class="text-center fs-2">Anda Bisa Menghubungi Saya Lewat :</p>
+                <div class="row justify-content-center">
+                    <div class="col-sm">
+                        <a class="nav-link fs-3" href="https://www.instagram.com/ridhwanazharr/"><i
+                                class="bi bi-instagram"></i>
+                            @ridhwanazharr</a>
+                    </div>
+                    <div class="col-sm">
+                        <a class="nav-link fs-3"><i class="bi bi-envelope"></i>ridhwanazharr@gmail.com</a>
+                    </div>
+                    <div class="col-sm">
+                        <a class="nav-link fs-3"><i class="bi bi-whatsapp"></i> +6285714718089</a>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-12 text-center">
+                        <a class="nav-link fs-3"><i class="bi bi-home"></i>No.33 Jl.Kabandungan II Kec.Tamansari
+                            Bogor</a>
                     </div>
                 </div>
-
-                <!-- Copyright -->
-                <div class="text-center text-light fs-4">
-                    2022 Copyright : Ridhwan Azhar Ramadhan
+            </div>
+        </section>
+        <br>
+        <!-- isi -->
+        <!---footer-->
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer id="borderimg" class="text-center text-white bg-darkbrown">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4"><a class="nav-link tc-white fs-5" href="#about">About</a></div>
+                    <div class="col-4"><a class="nav-link tc-white fs-5" href="#project">Project</a></div>
+                    <div class="col-4"><a class="nav-link tc-white fs-5" href="#kontak">Kontak</a></div>
                 </div>
-                <!-- Copyright -->
-            </footer>
-            <!---footer-->
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-        </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center text-light fs-4">
+                2022 Copyright : Ridhwan Azhar Ramadhan
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!---footer-->
+    </div>
     </div>
     </div>
     <!-- JS-->
